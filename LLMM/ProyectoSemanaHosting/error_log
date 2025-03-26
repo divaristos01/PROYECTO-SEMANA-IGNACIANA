@@ -1,0 +1,6 @@
+[26-Mar-2025 07:50:09 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for 1daw.esvirgua.comt failed: Name or service not known in /home/user1daw/public_html/09/LLMM/SEMANA IGNACIANA/visitas.php on line 9
+[26-Mar-2025 07:50:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for 1daw.esvirgua.comt failed: Name or service not known in /home/user1daw/public_html/09/LLMM/SEMANA IGNACIANA/visitas.php:9
+Stack trace:
+#0 /home/user1daw/public_html/09/LLMM/SEMANA IGNACIANA/visitas.php(9): mysqli->__construct('1daw.esvirgua.c...', 'user1daw_09', 'Rs~T&Du$gjq%', 'user1daw_BD1-09')
+#1 {main}
+  thrown in /home/user1daw/public_html/09/LLMM/SEMANA IGNACIANA/visitas.php on line 9

@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFDAB9; /* Melocotón claro */
+    color: #8B4513; /* Marrón oscuro */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	margin-left: 36%;
+    height: 100vh;
+}
+
+/* Contenedor del formulario */
+form {
+    background: #FFB07C; /* Naranja suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilos para etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para los inputs y textarea */
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+    background-color: #FFF3E0; /* Beige claro */
+    color: #8B4513;
+}
+
+/* Botón de envío */
+button {
+    background-color: #E97451; /* Rojo anaranjado */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #D2691E; /* Chocolate */
+}

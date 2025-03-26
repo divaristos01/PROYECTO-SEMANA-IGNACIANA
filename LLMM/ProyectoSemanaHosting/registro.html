@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Diego Evaristo Santiago">
+		<link rel="stylesheet" href="estiloRegistro.css">
+
+		<title>Formulario Jesuita</title>
+	</head>
+	<body>
+		<h2>Registrar Jesuita</h2>
+		<form action="guardar_jesuita.php" method="POST">
+			<label for="codigo">Código:</label>
+			<input type="text" id="codigo" name="codigo" maxlength="5"><br><br>
+
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required><br><br>
+
+			<label for="nombreAlumno">Nombre del Alumno:</label>
+			<input type="text" id="nombreAlumno" name="nombreAlumno" required><br><br>
+
+			<label for="firma">Firma:</label>
+			<textarea id="firma" name="firma" required></textarea><br><br>
+
+			<label for="firmaIngles">Firma en Inglés:</label>
+			<textarea id="firmaIngles" name="firmaIngles" required></textarea><br><br>
+
+			<button type="submit">Guardar</button>
+		</form>
+	</body>
+</html>
