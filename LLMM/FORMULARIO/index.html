@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f0f0f0;
+			margin: 20px;
+		}
+		form {
+			background-color: #ffffff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		fieldset {
+			border: 2px solid #4CAF50;
+			border-radius: 10px;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+		legend {
+			font-size: 18px;
+			font-weight: bold;
+			color: #4CAF50;
+		}
+	</style>
+</head>
+<body>
+    <form method="GET" action="RECOGER.php">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <br><br>
+			<p>Me gusta que me llamen: <input type="text"name="apodo"></p>         
+            <br><br>
+            <label for="estudios">Últimos estudios:</label>
+            <select id="estudios" name="estudios">
+                <option>Grado Superior</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Aficiones</legend>
+            <input type="checkbox" id="deporte" name="aficiones" value="Deporte">
+            <label for="deporte">Deporte</label><br>
+            <input type="checkbox" id="videojuegos" name="aficiones" value="Videojuegos">
+            <label for="videojuegos">Videojuegos</label><br>
+            <input type="checkbox" id="musica" name="aficiones" value="Música">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" id="otros" name="aficiones" value="Otros">
+            <label for="otros">Otros</label>
+        </fieldset>
+        <br>
+        <label for="mas_sobre_mi">Más sobre mí</label><br>
+        <textarea id="mas_sobre_mi" name="mas_sobre_mi" rows="4" cols="50"></textarea>
+        <br><br>
+        <fieldset>
+            <legend>Cuando acabe quiero...</legend>
+            <input type="radio" id="estudiar" name="futuro" value="Estudiar">
+            <label for="estudiar">Estudiar</label><br>
+            <input type="radio" id="trabajar" name="futuro" value="Trabajar">
+            <label for="trabajar">Trabajar</label>
+        </fieldset>
+        <br>
+        <input type="submit"></input>
+    </form>
+</body>
+</html>
